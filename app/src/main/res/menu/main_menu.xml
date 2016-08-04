@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:navigationIcon="?attr/homeAsUpIndicator"
+    >
+   <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/fav5"
+        android:title="@string/action_favorite"
+       android:orderInCategory="99"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/contacto"
+        android:title="Contacto"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/acercaDe"
+        android:title="Acerca de"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
